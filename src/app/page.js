@@ -1,4 +1,5 @@
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt, FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaDribbble } from "react-icons/fa";
+import { DotCMSDynamicForm } from "./components/DotCMSDynamicForm";
 
 export default function ContactPage() {
   return (
@@ -48,7 +49,6 @@ export default function ContactPage() {
           <h2 className="text-2xl font-bold mb-2 text-gray-900">Level up your brand</h2>
           <p className="mb-8 text-gray-600">You can reach us anytime via <a href="mailto:hi@untitledui.com" className="text-blue-700 hover:underline">hi@untitledui.com</a></p>
           <DotCMSDynamicForm formId="ContactUs" />
-          {/* <dotcms-form-builder></dotcms-form-builder> */}
         </div>
       </div>
     </div>
