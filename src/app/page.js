@@ -48,7 +48,7 @@ export default function ContactPage() {
         <div className="flex-1 p-8 md:p-10">
           <h2 className="text-2xl font-bold mb-2 text-gray-900">Level up your brand</h2>
           <p className="mb-8 text-gray-600">You can reach us anytime via <a href="mailto:hi@untitledui.com" className="text-blue-700 hover:underline">hi@untitledui.com</a></p>
-          <DotCMSDynamicForm formId="ContactUs" />
+          <DotCMSDynamicForm contentTypeVariable="ContactUs" />
         </div>
       </div>
     </div>
