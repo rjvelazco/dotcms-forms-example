@@ -1,5 +1,5 @@
 "use client";
 
-export const DotCMSDynamicForm = ({ formId }) => {
-  return <span>Form: {formId}</span>;
+export const DotCMSDynamicForm = ({ contentTypeId }) => {
+  return <span>Form: {contentTypeId}</span>;
 };
